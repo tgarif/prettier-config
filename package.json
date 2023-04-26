@@ -1,0 +1,53 @@
+{
+  "name": "@tgarif/prettier-config",
+  "version": "0.0.1",
+  "description": "Tgarif coding styles for Prettier",
+  "files": [
+    "prettier/",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "check": "prettier --check './**/*.js'",
+    "fix": "prettier --write './**/*.js'",
+    "precommit": "lint-staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit"
+    }
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "tgarif",
+    "prettier"
+  ],
+  "author": {
+    "name": "Tengku Arif",
+    "email": "arif.tengkumohd@cohu.com"
+  },
+  "devDependencies": {
+    "husky": "^4.3.7",
+    "lint-staged": "^12.1.2"
+  },
+  "dependencies": {
+    "prettier": "^2.5.1"
+  },
+  "peerDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
