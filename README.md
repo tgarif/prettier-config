@@ -1,5 +1,7 @@
 # @tgarif/prettier-config
 
+[![npm](https://img.shields.io/npm/v/@tgarif/prettier-config?color=a1b858&label=)](https://npmjs.com/package/@tgarif/prettier-config)
+
 - Single quotes, semi
 - 100 print width, 2 tab width
 - Trailing commas wherever possible
