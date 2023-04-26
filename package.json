@@ -1,6 +1,6 @@
 {
   "name": "@tgarif/prettier-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tgarif coding styles for Prettier",
   "files": [
     "prettier/",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/tgarif/prettier-config"
   },
   "keywords": [
     "tgarif",
